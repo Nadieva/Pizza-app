@@ -1,0 +1,118 @@
+{
+    "pizzas": [
+      {
+        "id": 1,
+        "name": "Margherita",
+        "ingredients": "mozzarella cheese, fresh basil, salt and extra-virgin olive oil",
+        "price_usd":[4,7],
+        "price_eur":[5, 8.30],
+        "size":["20cm","33cm"],
+        "diet":"vegetarian",
+        "allergies": "lactose",
+        "image":"1_margherita.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Quattro Fromaggi",
+        "ingredients": "ricotta, tomatoes, and the cheeses mozzarella, stracchino, fontina and gorgonzola",
+        "price_usd":[4,7],
+        "price_eur":[5, 8.30],
+        "size":["20cm","33cm"],
+        "diet":"vegetarian",
+        "allergies": "lactose",
+        "image":"2_quattrofromaggi.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Quattro Stagioni",
+        "ingredients": "mozarella, artichokes, tomatoes or basil, mushrooms, ham, prosciutto and olives",
+        "price_usd":[4,7],
+        "price_eur":[5, 8.30],
+        "size":["20cm","33cm"],
+        "diet":"vegetarian",
+        "allergies": "lactose",
+        "image":"3_quattrostagioni.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Vegan Pizza",
+        "ingredients": "garlic, tomatoes, pepper,red onion, button mushrooms and oregano",
+        "price_usd":[4,7],
+        "price_eur":[5, 8.30],
+        "size":["20cm","33cm"],
+        "diet":"vegan, gluten-free",
+        "allergies": "lactose",
+        "image":"4_veganpizza.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Seafood",
+        "ingredients": "shrimps, garlic, pepper, mozarella and basil leaves",
+        "price_usd":[4,7],
+        "price_eur":[5, 8.30],
+        "size":["20cm","33cm"],
+        "diet":"",
+        "allergies": "lactose",
+        "image":"5_seafood.jpg"
+      }
+    ],
+    "drinks":[
+      {
+        "id": 6,
+        "name": "Cocal Cola",
+        "type": "drink",
+        "price_usd":[3,2.50],
+        "price_eur":[5, 6],
+        "size":["0.33L","1L"],
+        "diet":"vegan",
+        "allergies": "",
+        "image":"1_cocacola.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Pepsi",
+        "type": "drink",
+        "price_usd":[3,2.50],
+        "price_eur":[5, 6],
+        "size":["0.33L","1L"],
+        "diet":"vegan",
+        "allergies": "",
+        "image":"2_pepsi.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Evian",
+        "type": "drink",
+        "price_usd":[1.50,2.40],
+        "price_eur":[1.30, 2],
+        "size":["0.33L","1L"],
+        "diet":"vegan",
+        "allergies": "",
+        "image":"3_evian.jpg"
+      }
+    ],
+    "desserts":[
+        {
+          "id": 9,
+          "name": "Brownie",
+          "type": "dessert",
+          "price_usd":[5,5],
+          "price_eur":[6,6],
+          "diet":"vegetarian",
+          "allergies": "lactose, gluten, nuts",
+          "image":"1_brownie.jpg",
+          "size":["100g", "100g"]
+        },
+        {
+          "id": 10,
+          "name": "Apple pie slice",
+          "type": "dessert",
+          "price_usd":[5,5],
+          "price_eur":[6,6],
+          "diet":"vegan",
+          "allergies": "",
+          "image":"2_applepie.jpg",
+          "size":["100g","100g"]
+        }
+      ]
+  }

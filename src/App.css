@@ -1,0 +1,180 @@
+body {
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  text-align: justify;
+}
+
+
+/*Navbar*/
+#navbar > ul{
+  margin:0;
+  padding:0;
+}
+#navbar {
+  width: 100%;
+  position: fixed;
+  top:0;
+  background-image: linear-gradient(to right, rgb(7, 7, 7) , rgb(133, 73, 73),rgb(240, 20, 20));
+}
+#navbar a {
+  float: left;
+  color:white;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+#navbar a:active {
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+#logoDiv {
+  float: right;
+}
+
+#logoImage {
+  height:50px;
+  width: 50px;
+}
+
+/* Content */
+.content {
+  color: black;
+  margin: 100px 50px;
+}
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*Footer*/
+#footer {
+  color: white;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(7, 7, 7) , rgb(133, 73, 73),rgb(240, 20, 20));
+}
+
+
+/*Home page*/
+.contentTitle{
+  text-align: left;
+}
+
+.textContent{
+  display:flex;
+}
+
+.welcomeImage{
+  display:inline-block;
+}
+
+.welcomeImage>img{
+  width: 200px;
+  height: 400px;
+}
+
+.welcomeText{
+  text-align:left;
+}
+
+
+/* Product list*/
+
+.orderConfirmation {
+  width:100%;
+}
+
+.currencyChangeButton {
+  text-align: center;
+  margin-bottom: 10px
+}
+.currencyChangeButton>button{
+  color:white;
+  background-image: linear-gradient(to right, rgb(7, 7, 7) , rgb(133, 73, 73),rgb(240, 20, 20));
+  border-radius: 12px;
+}
+.cardList{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 600px;
+  height: 1000px;
+  margin:10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.cardInfo {
+  padding: 0px 50px 50px 50px;
+}
+
+.productImage {
+  text-align: center;
+}
+
+.productImage>img{
+  padding:50px;
+  width: 500px;
+  height:500px;
+}
+
+.productQuantity {
+  width: 50px;
+  margin-left: 10px;
+}
+
+/*buttons*/
+
+
+/*mobile phones*/
+@media only screen and (max-width: 760px) {
+.content {
+    margin: 125px 10px;
+}
+
+.textContent{
+  display: inherit;
+}
+  .welcomeImage >img{
+    width: 100%;
+  }
+
+  .cardList{
+    display: flex;
+  }
+  
+  .card {
+    height:600px;
+  }
+  
+  .productImage>img{
+    padding:50px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .cardInfo {
+    padding: 0px 25px 25px 25px;
+  }
+}
